@@ -51,7 +51,7 @@ pair<int, int> findTwoSum(const vector<int>& list, int sum){
     return result;
 }
 /*end of Solution 1 */
-#elif
+#else
 pair<int, int> findTwoSum(const vector<int>& list, int sum){
     unordered_map<int,int> SumMap;
     size_t listsize = list.size();
